@@ -1,0 +1,40 @@
+{
+  "name": "ultra-fast-eth-transfer-bot",
+  "version": "6.0.0",
+  "description": "⚡ Ultra-Fast Ethereum Transfer Bot - Hyper-Optimized for Maximum Speed",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "test": "node tests/integration.test.js",
+    "health-check": "curl http://localhost:5000/health"
+  },
+  "keywords": [
+    "ethereum",
+    "automation",
+    "bot",
+    "transfer",
+    "ultra-fast",
+    "instant",
+    "production",
+    "secure",
+    "event-driven",
+    "mempool-monitoring",
+    "1ms-detection",
+    "hyper-optimized"
+  ],
+  "author": "Amin Tanhaei",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "dotenv": "^16.6.1",
+    "ethers": "^6.15.0",
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "archiver": "^7.0.1"
+  }
+}
